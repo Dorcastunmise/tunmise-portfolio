@@ -39,7 +39,7 @@
 *,
 ::after,
 ::before {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 html {
@@ -47,8 +47,9 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    -ms-overflow-style: scrollbar;
-    -webkit-tap-highlight-color: transparent
+    overflow-x: hidden;
+    -ms-overflow-style: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 
 @-ms-viewport {
